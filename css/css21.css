@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;600&display=swap");
 
 body {
-  font-family: "Lobster", cursive;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -12,8 +11,8 @@ body {
 .status-bar__column {
   width: 33%;
 }
-.status-bar__column:first-child span {
-  margin-right: 3px;
+.status-bar__column:first-child {
+  display: flex;
 }
 
 .status-bar__column :nth-child(2) {
